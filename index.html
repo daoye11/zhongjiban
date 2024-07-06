@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+
+<title>玉子爱情故事</title> 
+<style>
+    body {
+        font-family: '宋体', SimSun, serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f4f4f4;
+    }
+    .container {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 20px;
+    }
+    .logo {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .logo img {
+        max-width: 100%;
+        height: auto;
+    }
+    .bordered {
+        border: 2px solid black;
+        padding: 20px;
+        margin-bottom: 20px;
+        background-color: #fff;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+    .image-container img {
+        max-width: 100%;
+        height: auto;
+        margin-bottom: 10px;
+    }
+    .player,.video-player {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-width: 1000px; /* 你可以根据需要调整这个值 */
+    margin: 0 auto; /* 使视频播放器居中 */
+}
+    .video-container {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 比例 */
+    height: 0;
+    max-width: 100%; /* 确保视频容器不会超出视频播放器的宽度 */
+}
+.video-container video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+    .controls button {
+        padding: 10px 20px;
+        margin: 0 5px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+    }
+    .play-btn {
+        background-color: #28a745;
+        color: #fff;
+    }
+    .pause-btn {
+        background-color: #dc3545;
+        color: #fff;
+    }
+    .controls button:hover {
+        opacity: 0.8;
+    }
+    h1, h2, h3, h4, h5, h6, p {
+        text-align: center;
+    }
+    .image-pair {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+</style>
+</head>
+<body>
+<div class="container">
+    <div class="logo">
+        <h1>玉子爱情故事</h1>
+        <p>tomako love stroy</p>
+        <img src="13.webp" alt="玉子">
+    </div>
+
+    <div class="yuzi bordered image-container">
+        <h2>人物介绍</h2>
+        <div class="image-pair">
+          <img src="4.webp" alt="北白川玉子" width="400" height="400">
+          <img src="1.webp" alt="北白川玉子" width="400" height="400">
+      </div>
+        <h3>北白川玉子（北白川 たまこ）</h3>
+        <p>配音：洲崎绫</p>
+        <p>生日：12月31日</p>
+        <p>血型：O型</p>
+        <p>故事的主人公，兔山商店街打糕店“玉屋”的长女，母亲在她小学5年级时离世，生日是在饼店最忙碌的12月31日除夕。</p>
+        <p>热爱商店街的一切，和商店街的所有店主都有很好的关系。对恋爱很迟钝。兔山学园三年级学生，她人生里第一次和饼藏同班。</p>
+    </div>
+
+    <div class="dalu bordered image-container">
+      <h2>大路饼藏（大路 もち蔵）</h2>
+      <div class="image-pair">
+          <img src="5.webp" alt="大路饼藏" width="400" height="400">
+          <img src="11.webp" alt="大路饼藏" width="400" height="400">
+      </div>
+      <p>配音：田丸笃志</p>
+      <p>生日：10月10日</p>
+      <p>血型：B型</p>
+      <p>玉子家对面打糕店“大路屋”的儿子。玉子的同学和青梅竹马，喜欢着玉子。叫玉子父亲“爸爸”，而叫自己爸爸“老爹”。对玉子的父亲豆大很友善，却因是死对头的儿子而被他冷淡对待。兔山学园2年B班学生，电影研究会社员，经常带着照相机。</p>
+      <p>兔山学园三年级学生，他人生里第一次和玉子同班。</p>
+  </div>
+  
+  <div class="lv bordered image-container">
+      <h2>常盘绿（常盤 みどり）</h2>
+      <div class="image-pair">
+          <img src="6.webp" alt="常盘绿" width="400" height="400">
+          <img src="111.webp" alt="常盘绿" width="400" height="400">
+      </div>
+      <p>配音：金子有希</p>
+      <p>生日：8月19日</p>
+      <p>血型：B型</p>
+      <p>留着一头金色短发的少女。祖父母在兔山商店街经营玩具店“常盘堂”。</p>
+      <p>玉子的同学和青梅竹马，兔山学园三年级学生，舞棒部成员，后当选为部长。性格强硬的女孩子，在各方面的事情也很关心玉子，尤其是恋爱方面。</p>
+  </div>
+  
+  <div class="muye bordered image-container">
+      <h2>牧野神奈（牧野 かんな）</h2>
+      <div class="image-pair">
+          <img src="8.webp" alt="牧野神奈" width="400" height="400">
+          <img src="444.webp" alt="牧野神奈" width="400" height="400">
+      </div>
+      <p>配音：长妻树里</p>
+      <p>生日：6月7日</p>
+      <p>血型：O型</p>
+      <p>兔山学园三年级学生，舞棒部成员。有恐高症。</p>
+      <p>家里从事木匠工作，商店街不少的店铺都是她家的顾客。很在意建筑物的垂直测量，做事十分自我。</p>
+  </div>
+  
+  <div class="zhao bordered image-container">
+      <h2>朝雾史织（朝雾 史织）</h2>
+      <div class="image-pair">
+          <img src="9.webp" alt="朝雾史织" width="400" height="400">
+          <img src="555.webp" alt="朝雾史织" width="400" height="400">
+      </div>
+      <p>配音：山下百合惠</p>
+      <p>生日：4月2日</p>
+      <p>血型：A型</p>
+      <p>兔山学园三年级学生，所属羽毛球部成员。外表看似冷酷而严肃的眼镜属性的美少女，但实际上心地很好。</p>
+  </div>
+  
+
+    <div class="music bordered image-container">
+        <img src="音乐.webp" alt="主题歌">
+        <h9>主题歌</h9>
+        <p>【专辑名】主题歌《プリンシプル》</p>
+        <p>【发售日】2014年4月30日</p>
+        <p>【歌】洲崎绫</p>
+        <p>01. プリンシプル</p>
+        <p>作词：爱铃/作曲：藤本功一/编曲：谷口尚久</p>
+        <p>02.こいのうた</p>
+        <p>作词：山田尚子/作曲：山口 优/编曲：藤本功一</p>
+        <div class="player">
+            <audio id="audioPlayer" src="01. プリンシプル.mp3"></audio>
+            <div class="controls">
+                <button class="play-btn" onclick="playAudio()">播放</button>
+                <button class="pause-btn" onclick="pauseAudio()">暂停</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="pingjia bordered image-container">
+        <h10>影片评价</h10>
+        <p>《玉子爱情故事》与其说反映出了商店街的快乐气氛，不如说玉子跟饼藏二人的那种可爱性格更加惹人瞩目。另外这部作品的最大看点是馅子的成长（锦织博 评）</p>
+        <p>《玉子爱情故事》可以说是电影迷们必看的一部杰出的爱情故事。作品一方面细腻地刻画了能够让女性产生共鸣的、青春期少女的无上可爱，一边又仿佛以无声电影的效果表现出动画的喜剧色彩。与此同时，观众们也可以在作品里的同性角色上找到真实感。（电影评论家增当龙也 评）</p>
+    </div>
+
+    <div class="beijing bordered image-container">
+        <h11>创作背景</h11>
+        <p>在映像拍摄方面，剧场版中运用了重视镜头的演出方法，就像是在拍摄一部真人电影，本作无论是演出方法，还是镜头拍摄的角度，“以镜头紧追被摄体”的感觉都比以往的作品显得比较强。并且把故事人物看作一个真正的人来对待，以这样一种角度去亲近故事人物，而不是单单地把他们当作“虚构故事中的人物”来对待。</p>
+        <p>《玉子爱情故事》是一部注重并且充满了青春光辉的作品，导演山田尚子正是抱着这样的心态去拍摄这部作品，而“青春”这个主题从《轻音！》时代一直延续到本作中，对玉子那个年龄的女孩子而言，她们的每一下呼吸，每一次眨眼，所有的瞬间都是“青春”。</p>
+        <p>故事中除了玉子和饼藏通过恋爱实现了自身的成长，还有其他角色也迈出了下一步，比如史织决定去留学。另外，在这部作品里面小绿是一个非常重要的人物，她的存在本身就是“青春”，山田尚子表示在电视动画中已经她带到了恋爱的入口前，在这次电影中就让她继续走下去。</p>
+        <p>总而言之，这是一个珍重恋爱萌芽这种随处可见的东西的简约故事。</p>
+    </div>
+
+    <div class="bofang bordered image-container">
+        <h12>影片播放</h12>
+        <div class="video-player">
+            <div class="video-container">
+                <video id="videoPlayer" src="玉子爱情故事.1080p.BD中字[66影视www.66Ys.Co].mp4" controls></video>
+            </div>
+            <div class="controls">
+                <button class="play-btn" onclick="playVideo()">播放</button>
+                <button class="pause-btn" onclick="pauseVideo()">暂停</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    const audioPlayer = document.getElementById('audioPlayer');
+    const videoPlayer = document.getElementById('videoPlayer');
+
+    function playAudio() {
+        audioPlayer.play();
+    }
+
+    function pauseAudio() {
+        audioPlayer.pause();
+    }
+
+    function playVideo() {
+        videoPlayer.play();
+    }
+
+    function pauseVideo() {
+        videoPlayer.pause();
+    }
+</script>
+</body>
+</html>
